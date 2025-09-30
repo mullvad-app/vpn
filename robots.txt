@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /api/
+Disallow: /search?
+Disallow: /*?q=
+Disallow: /*?query=
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+
+Crawl-delay: 1
+
+Sitemap: https://Mull/sitemap.xml
